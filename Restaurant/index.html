@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kofi's Kitten Restaurant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html">
+              <h1>Kofi's Kitten Restaurant</h1>
+            </a>
+            <p>
+              <img src="images/bird.png" alt="certification">
+              <span>Best chicken certified</span>
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle naviagtion</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home
+              </a>
+            </li>
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About
+              </a>
+            </li>
+             <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards
+              </a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:537-068-569">
+                <span>537-068-569</span>
+              </a>
+              <div>We deliver!</div>
+            </li>
+            </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:537-068-569">
+      <span class="glyphicon glyphicon-earphone"></span>
+      537-068-569
+    </a>
+    <div id="xs-deliver" class="text-center visible-xs">
+      We deliver!
+    </div>
+  </div>
+
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="images/jumbotron-768.jpeg" alt="Picture of restaurant"
+      class="img-responsive visible-xs">
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="menu-categories.html">
+          <div id="menu-tile">
+            <span>menu</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="single-category.html">
+          <div id="specials-tile">
+            <span>specials</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/q6Te7GpHzrJy37E58" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10259.952228125703!2d20.051814699878534!3d49.99283336707369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471643e0f4d70851%3A0xa2efefd9117e0059!2sWidok%2010%2C%2032-020%20Wieliczka!5e0!3m2!1spl!2spl!4v1592663725728!5m2!1spl!2spl" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <span>map</span>
+          </div>
+        </a>
+      </div>
+    </div> 
+  </div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Mon-Thurs: 12PM - 10PM <br>
+          Fri-Sun: 12PM - 11PM<br>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          ul. Widok 10
+          32-020 Wieliczka
+          Poland
+          <p>Delivery area within 10 km with minimum order of 40PLN.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best restaurant I've been to! And that's saying a lot, since I've been to many of them!"</p>
+          <p>Amazing food and great service! I'll be back again and again</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Kofi's Kitten Restaurant 2020</div>
+    </div>
+  </footer>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
